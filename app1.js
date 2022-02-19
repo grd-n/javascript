@@ -53,22 +53,31 @@
 
 // player.sayHello(player.name);
 
-const calculator = {
-    add: function(a,b){
-        console.log(a+b);
-    },
-    minus: function(a, b){
-        console.log(a-b);
-    },
-    multiply: function(a,b){
-        console.log(a*b);
-    },
-    devide: function(a,b){
-        console.log(a/b);
-    },
-};
+// const calculator = {
+//     add: function(a,b){
+//         console.log(a+b);
+//     },
+//     minus: function(a, b){
+//         console.log(a-b);
+//     },
+//     multiply: function(a,b){
+//         console.log(a*b);
+//     },
+//     devide: function(a,b){
+//         console.log(a/b);
+//     },
+// };
 
-calculator.add(3,4); // 7
-calculator.minus(10,3); // 7
-calculator.multiply(5,6); // 30
-calculator.devide(35,7); // 5
+// calculator.add(3,4); // 7
+// calculator.minus(10,3); // 7
+// calculator.multiply(5,6); // 30
+// calculator.devide(35,7); // 5
+
+// console.log 남용을 그만하자! return 활용
+
+function plus(a,b) {
+    return a+b;
+}
+
+const c = plus(3,2);
+console.log(c);
