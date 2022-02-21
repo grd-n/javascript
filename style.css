@@ -7,6 +7,10 @@ h1 {
     transition: color .5s ease-in-out
 }
 
-.clicked {
-    color:tomato;
+.active {
+    color: tomato;
+}
+
+.cool-font {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
