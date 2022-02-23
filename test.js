@@ -25,3 +25,4 @@ function handleColor(){
 } // toggle을 이용해서 가장 간단하게 정리한 방법.
 
 hello.addEventListener("click", handleColor);
+
