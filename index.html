@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Momentum App</title>
 </head>
 <body>
-    <div id="apple">
-        <h1 class = "cool-font">Put your mouse here!</h1>
+    <div id = "login-form">
+        <input type="text", placeholder="what is your name?">
+        <button>Log In</button>
     </div>
-    <script src="app3.js"></script>
+    <br>
+    <form id = "todo-form">
+        <input type="text" placeholder="Write a Todo and Press Enter." required>
+        <ul id = "todo-list"></ul>
+    </form>
+    <h2 id = "clock">00:00:00</h2>
+    <div id = "quote">
+        <span></span>
+        <span></span>
+    </div>
+    <script src="JS/greetings.js"></script>
+    <script src="JS/clock.js"></script>
+    <script src="JS/quotes.js"></script>
+    <script src="JS/backgrounds.js"></script>
+    <script src="JS/todo.js"></script>
 </body>
 </html>
