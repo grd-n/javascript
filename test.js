@@ -1,5 +1,5 @@
 const hello = document.querySelector(".sayHello h1");
-
+hello.style.color = "blue"
 // function handleColor(){
 //     const currentColor = hello.style.color;
 //     let newColor;
@@ -20,9 +20,9 @@ const hello = document.querySelector(".sayHello h1");
 //     }
 // }
 
-function handleColor(){
-    hello.classList.toggle("active");
-} // toggle을 이용해서 가장 간단하게 정리한 방법.
+// function handleColor(){
+//     hello.classList.toggle("active");
+// } // toggle을 이용해서 가장 간단하게 정리한 방법.
 
 hello.addEventListener("click", handleColor);
 
